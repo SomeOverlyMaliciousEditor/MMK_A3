@@ -42,6 +42,7 @@ Zum Thema Design und Implementierung (Phase 3):
 
 - Geräte
   - Kaffeeautomat
+  - UV Lichter zur Desinfektion
   - Kühlschrank
   - Herd
   - Backofen
