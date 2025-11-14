@@ -20,6 +20,24 @@ Gerade in der Küche werden immer häufiger "SmartDevices" anzutreffen sein. Der
 - Storyboard
   - Bilden einer Szene
 
+# Termin 2
+
+- Grundsätzliche Chancen und Risiken des Projektes.
+- Stakeholdermap
+- Bestimmen der Benutzerklassen/-fähigkeiten (je Studierendem eine Persona)
+  - GUI-versierter Benutzer (regelmäßige Anwendung)
+  - Mittelmäßig GUI-versierter Benutzer (gelegentliche Anwendung)
+  - Wenig GUI-versierter Benutzer (Erstanwendung)
+- Erstellen von mindestens 5 Use Cases
+- Prozessablaufdiagramm
+Zum Thema Design und Implementierung (Phase 3):
+- Customer Journey Map
+- Ein Storyboard je Student
+
+> (Ablauf der Anwendung mit groben Zeichnungen der Objekte und der Vorgehensweise bei der GUI-Anwendung).
+ 
+> Bitte löschbares Medium verwenden, z.B. Papier, Bleistift, kein kariertes Papier. -> Daraus ein "Best of"-Storyboard  mit Sprechblasenkommentierung, wie die Fallstudien dort betrieben werden
+
 # Platz für sonstige Notizen
 
 - Geräte
