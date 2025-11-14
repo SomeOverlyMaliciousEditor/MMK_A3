@@ -1,0 +1,194 @@
+- Use Cases
+    - ## ✅ **1. Nutzer möchte Rezepte anzeigen**
+        - **Wer:** Hobbykoch
+        - **Was:** Möchte ein Rezept auf dem Tablet anzeigen lassen.
+        - **Warum:** Um beim Kochen Schritt-für-Schritt-Anweisungen zu erhalten, ohne nach einem externen Gerät greifen zu müssen.
+    - 
+    - ## ✅ **2. Nutzer möchte per Siri ein Gerät starten**
+        - **Wer:** Vielbeschäftigte Person
+        - **Was:** Startet den Backofen per Siri-Sprachbefehl.
+        - **Warum:** Hat keine Hände frei oder ist nicht in der Nähe des Tablets und möchte bequem den Kochprozess starten.
+    - 
+    - ## ✅ **3. Nutzer möchte den Kühlschrank-Inhalt einsehen**
+        - **Wer:** Ernährungsbewusster Nutzer
+        - **Was:** Prüft über die App die Lebensmittel im Kühlschrank.
+        - **Warum:** Möchte wissen, was noch vorrätig ist und was bald abläuft.
+    - 
+    - ## ✅ **4. Nutzer möchte Einkaufslisten automatisch erstellen**
+        - **Wer:** Familienvater / -mutter
+        - **Was:** Lässt fehlende Lebensmittel automatisch zur Einkaufsliste hinzufügen.
+        - **Warum:** Um Zeit zu sparen und den Einkauf effizienter zu planen.
+    - 
+    - ## ✅ **5. Nutzer möchte mehrere Geräte gleichzeitig steuern**
+        - **Wer:** Technikaffiner Nutzer
+        - **Was:** Startet Herd, Dunstabzug und Timer über die GUI parallel.
+        - **Warum:** Um einen reibungslosen Kochablauf zu haben und alles zentral zu kontrollieren.
+    - 
+    - ## ✅ **6. Nutzer möchte Warnungen erhalten**
+        - **Wer:** Unaufmerksamer oder abgelenkter Nutzer
+        - **Was:** Erhält Benachrichtigungen (z. B. „Topf kocht über“, „Backofen ist vorgeheizt“).
+        - **Warum:** Um Unfälle und Verschwendung zu verhindern.
+    - 
+    - ## ✅ **7. Nutzer möchte personalisierte Einstellungen speichern**
+        - **Wer:** Mehrere Personen im Haushalt
+        - **Was:** Speichert eigene Favoriten-Geräte, Temperaturen, Rezepte.
+        - **Warum:** Damit jeder seine eigene Kochumgebung schnell laden kann.
+    - 
+    - ## ✅ **8. Nutzer möchte die Energieeffizienz überwachen**
+        - **Wer:** Umweltbewusster Nutzer
+        - **Was:** Überprüft den Energieverbrauch der Küchengeräte über das Dashboard.
+        - **Warum:** Um umweltfreundlicher zu kochen und Strom zu sparen.
+- Personas
+    - 1 Persona mid
+        - **Alter:** 38
+
+        - **Beruf:** Projektmanagerin
+        - **Technikaffinität:** Mittel
+        - **Haushalt:** Lebt mit Partner und zwei Kindern
+        - **Geräte:** iPad, iPhone, Siri-Nutzung täglich
+        - ### **Ziele / Motivation**
+            - Beim Kochen Zeit sparen
+            - Übersicht über Vorräte behalten
+            - Einfach Rezepte finden
+            - Einkauf effizient planen
+            - Küche sicher für Kinder halten
+        - ### **Frustrationen / Pain Points**
+            - Beim Kochen keine Hand frei
+            - Vergisst häufig Einkäufe
+            - Kinder drücken gerne Knöpfe an Geräten
+            - Rezepte sind oft zu kompliziert dargestellt
+        - ### **Bedürfnisse an die Smart-Kitchen-GUI**
+            - Klare, große Buttons
+            - Sprachsteuerung (Siri)
+            - Automatische Einkaufsliste
+            - Sicherheitsmodus
+    - 2 Persona top
+        - **Alter:** 27
+
+        - **Beruf:** Softwareentwickler
+        - **Technikaffinität:** Hoch
+        - **Haushalt:** Wohnt alleine
+        - **Geräte:** iPad Pro, HomeKit, smarte Küche voll integriert
+        - ### **Ziele / Motivation**
+            - Kocht gern neue Rezepte
+            - Möchte Küche automatisieren
+            - Will Effizienz und Energie sparen
+            - Möchte alles zentral steuern (Dashboard)
+        - ### **Frustrationen / Pain Points**
+            - Küchengeräte verschiedener Marken – oft kompliziert
+            - Will nicht ständig Apps wechseln
+            - Rezepte sind nicht immer kompatibel mit Geräten (Zeiten/Temperaturen)
+        - ### **Bedürfnisse an die Smart-Kitchen-GUI**
+            - Alles in einer App
+            - Automatisierte Kochprogramme
+            - Energieübersicht
+            - Verbindung mit Siri Shortcuts
+            - Live-Status aller Geräte
+    - 3 Persona bot
+        - **Alter:** 67
+
+        - **Beruf:** Rentnerin
+        - **Technikaffinität:** Gering
+        - **Haushalt:** Lebt mit Ehemann
+        - **Geräte:** iPad, Siri (für einfache Aufgaben)
+        - ### **Ziele / Motivation**
+            - Gesund kochen
+            - Barrierefreie Bedienung
+            - Klare und einfache Darstellung
+            - Erinnerung an Ablaufdaten im Kühlschrank
+        - ### **Frustrationen / Pain Points**
+            - Kleine Schrift schwer lesbar
+            - Zu viele Funktionen überfordern
+            - Nicht alle Knöpfe und Symbole verständlich
+            - Angst vor Fehlbedienung
+        - ### **Bedürfnisse an die Smart-Kitchen-GUI**
+            - Großer Text & Icons
+            - Sehr einfache Navigation
+            - Vorlesefunktion durch Siri
+            - Warnungen (z. B. Herd an, Lebensmittel abgelaufen)
+            - Schritt-für-Schritt-Modus beim Kochen
+- Stakeholder
+    - ## **1. Primäre Stakeholder (direkt betroffen / Hauptnutzer)** 
+        - ### **Endnutzer**
+            - **Familienmutter / Familien**→wollen einfache Bedienung, Sicherheit, Übersicht.
+            - **Hobbykoch / Technikaffine Nutzer**→wollen Automatisierung, volle Kontrolle & Effizienz.
+            - **Senioren**→brauchen Barrierefreiheit, einfache Interaktion.
+            - **Personen mit körperlichen Einschränkungen**→profitieren stark von Sprachsteuerung (Siri).
+        - ### **Haushaltsmitglieder**
+            - Nutzen die Küche ebenfalls
+            - Müssen Sicherheit & Bedienbarkeit verstehen
+        - 
+        - ## **2. Sekundäre Stakeholder (unterstützen oder beeinflussen Nutzung)** 
+        - ### **Küchengeräte-Hersteller**
+            - Smarter Kühlschrank
+            - Smarter Herd / Backofen
+            - Geschirrspüler
+            - Sensoren & Kameras
+        - Sie liefern APIs, Funktionen und Gerätestatus-Daten.
+        - ### **Software-/Systementwickler**
+            - GUI-Designer
+            - App-Entwickler (iOS)
+            - HomeKit-Integratoren
+            - Backend/Cloud-Entwickler (falls nötig)
+        - ### **Siri / Apple Ökosystem**
+            - Sprachbefehle
+            - iOS-Kompatibilität
+            - HomeKit Integration
+        - ### **Wartung & Technik-Support**
+            - Updates, Fehlerbehebung
+            - Sicherheitspatches
+        - 
+        - ## **3. Tertiäre Stakeholder (indirekte Interessen)** 
+        - ### **Supermärkte / Lebensmittel-Lieferdienste**
+            - Einkaufsliste Synchronisation
+            - Lieferintegration (z. B. Rewe, Amazon Fresh)
+        - ### **Gesundheits- & Ernährungs-Apps**
+            - Kalorienzähler
+            - Diätplanung
+            - Rezeptdatenbanken
+        - ### **Versicherungen**
+            - Interesse an sicherer Nutzung (Brand-/Schutzprävention)
+        - ## **4. Externe Stakeholder (bewerten, regulieren, beeinflussen)** 
+        - ### **Datenschutzbehörden**
+            - DSGVO / Privatsphäre
+            - Umgang mit Kamerabildern (Kühlschrank), Verbrauchsdaten, Sprachkommandos
+        - ### **Normen- & Sicherheitsstellen**
+            - Elektrische Sicherheit
+            - Brand- und Gerätesicherheit
+            - Smarte Home-Standards
+        - ### **Universität / Projektbetreuer**
+            - Bewerten das Konzept
+            - Geben Anforderungen & Rahmenbedingungen vor
+- Prozessablaufdiagramme
+    - ![](https://remnote-user-data.s3.amazonaws.com/gKIx2gjVkxXmP2qFfoHB2jpp76JC4wyBswDq3I3k4dYRcdj0f9XorgsDx89-kAX6P3CJNNf0pn1NaClNExDlJkxhX2nue4UmHbAHHYnwENhjrBO82GAxYAF81wlIoc43.png)
+    - ![](https://remnote-user-data.s3.amazonaws.com/9FJBAOu6kZooo_BQkTLoPbbQiujuWNR6z2_4ZKxxC09c0VmTo_hOCE0JI6WZUtN8JZmOlYIkPV6D_Rm4fQ7wAGI5Nw2msBEzVS3d-8nRNi9GFetr468A2Kw91VaFwOQf.png)
+- Chancen Risiken Analyse
+    - --------------------- Portal ---------------------Chancen (Opportunities)
+        - Erhöhte Benutzerfreundlichkeit #[[Chancen (Opportunities)]] 
+            - [Beschreibung](Treffen%2014.10.25/Chancen%20Risiken%20Analyse/Chancen%20(Opportunities)/Chancen%20(Opportunities)/Beschreibung.md)―Zentrale Steuerung aller Geräte über Tablet & Siri; einfache Nutzung für Familien, Senioren, Personen mit Einschränkungen.
+        - Zeitersparnis #[[Chancen (Opportunities)]] 
+            - [Beschreibung](Treffen%2014.10.25/Chancen%20Risiken%20Analyse/Chancen%20(Opportunities)/Chancen%20(Opportunities)/Beschreibung.md)―Automatische Geräteeinstellungen, automatische Einkaufslisten, schnellere Kochprozesse.
+        - Erhöhte Sicherheit #[[Chancen (Opportunities)]] 
+            - [Beschreibung](Treffen%2014.10.25/Chancen%20Risiken%20Analyse/Chancen%20(Opportunities)/Chancen%20(Opportunities)/Beschreibung.md)―Warnungen bei Überhitzung, überkochenden Töpfen, aktivem Herd; Kindersicherungsmöglichkeiten.
+        - Energieeffizienz #[[Chancen (Opportunities)]] 
+            - [Beschreibung](Treffen%2014.10.25/Chancen%20Risiken%20Analyse/Chancen%20(Opportunities)/Chancen%20(Opportunities)/Beschreibung.md)―Energieanalyse, optimierte Gerätesteuerung, geringere Kosten & ökologischer Vorteil.
+        - Smart-Home-Ausbau #[[Chancen (Opportunities)]] 
+            - [Beschreibung](Treffen%2014.10.25/Chancen%20Risiken%20Analyse/Chancen%20(Opportunities)/Chancen%20(Opportunities)/Beschreibung.md)―Erweiterbar mit weiteren Geräten; HomeKit-Integration sorgt für Zukunftssicherheit.
+        - Verbesserte Ernährung #[[Chancen (Opportunities)]] 
+            - [Beschreibung](Treffen%2014.10.25/Chancen%20Risiken%20Analyse/Chancen%20(Opportunities)/Chancen%20(Opportunities)/Beschreibung.md)―Lebensmittelüberwachung, Ablauffristen, gesunde Rezeptvorschläge, Nährstoffinformationen.
+    - 
+    - --------------------- Portal ---------------------Risiken (Risks)
+        - Datenschutzprobleme #[[Risiken (Risks)]] 
+            - [Beschreibung](Treffen%2014.10.25/Chancen%20Risiken%20Analyse/Risiken%20(Risks)/Risiken%20(Risks)/Beschreibung.md)―Kameras im Kühlschrank, Verbrauchsdaten und persönliche Gewohnheiten müssen DSGVO-konform gesichert werden.
+        - Technische Abhängigkeit #[[Risiken (Risks)]] 
+            - [Beschreibung](Treffen%2014.10.25/Chancen%20Risiken%20Analyse/Risiken%20(Risks)/Risiken%20(Risks)/Beschreibung.md)―Funktion nur bei funktionierender Internetverbindung, stabilen APIs und korrekt arbeitender Siri.
+        - Fehlerkennungen / Fehlfunktionen #[[Risiken (Risks)]] 
+            - [Beschreibung](Treffen%2014.10.25/Chancen%20Risiken%20Analyse/Risiken%20(Risks)/Risiken%20(Risks)/Beschreibung.md)―Falsch erkannte Lebensmittel, fehlerhafte Sprachbefehle oder falsche Automatik-Einstellungen.
+        - Komplexität für manche Nutzer #[[Risiken (Risks)]] 
+            - [Beschreibung](Treffen%2014.10.25/Chancen%20Risiken%20Analyse/Risiken%20(Risks)/Risiken%20(Risks)/Beschreibung.md)―Senioren oder Technikunerfahrene könnten überfordert sein ↔ Schulungsbedarf.
+        - Hohe Anschaffungskosten #[[Risiken (Risks)]] 
+            - [Beschreibung](Treffen%2014.10.25/Chancen%20Risiken%20Analyse/Risiken%20(Risks)/Risiken%20(Risks)/Beschreibung.md)―Smarte Geräte + Tablet können teuer sein.
+        - Herstellerabhängigkeit #[[Risiken (Risks)]] 
+            - [Beschreibung](Treffen%2014.10.25/Chancen%20Risiken%20Analyse/Risiken%20(Risks)/Risiken%20(Risks)/Beschreibung.md)―Unterschiedliche Gerätesysteme/Marken ↔ inkompatible APIs; starke Abhängigkeit von Apple-Ökosystem.
+    - # **SWOT-Matrix – Smart Kitchen GUI** 
+        - ![](https://remnote-user-data.s3.amazonaws.com/3OswhiQvqzX-a0EzxfiPdxRxVz8CKZHRTuD6VaWiCezhs5kubR5Sr-pI0At9E8jkc5W00fML1CSE7dN3gThBIPdjBOCUnyjch6GZgn-fM8L-FrGpp3rsC4wCAoXjch80.png)
