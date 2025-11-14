@@ -1,0 +1,77 @@
+Chancen und Risiken des Projekts:
+Chancen:
+•	Komfortsteigerung und Zeitersparnis im Alltag.
+•	Bessere Ressourcenplanung (Einkauf, Energie, Lebensmittel).
+•	Erhöhung der Nachhaltigkeit durch Reduktion von Lebensmittelverschwendung.
+•	Potenzial für KI-Integration (Essensplaner, Rezeptempfehlungen).
+•	Erweiterbarkeit (Integration weiterer Smart Devices).
+Risiken:
+•	Datenschutz und Datensicherheit (Lebensmittelvorlieben, Verbrauchsprofile).
+•	Komplexität der Systemintegration verschiedener Hersteller.
+•	Abhängigkeit von Netzwerkverbindungen und Cloud-Diensten.
+•	Hoher Wartungsaufwand bei Software- oder Gerätefehlern.
+•	Mangelnde Akzeptanz bei technikfernen Nutzern.
+
+Stakeholdermap:
+Zentrale Stakeholder:
+•	Primäre Nutzer: Haushalte, Familien, Singles.
+•	Sekundäre Nutzer: Servicepersonal, Wartungstechniker.
+•	Entwicklerteam: UI/UX-Designer, Softwareentwickler, KI-Entwickler.
+•	Externe Partner: Gerätehersteller, Cloud-Anbieter, Supermärkte (API-Anbindung).
+•	Indirekte Stakeholder: Datenschutzbehörden, Energieversorger.
+
+Benutzerklassen
+GUI-versiert (regelmäßige Anwendung)
+Merkmale: Technikaffin, nutzt täglich Smart Devices, liebt Automatisierung.
+Ziel: Schnelle Planung und Synchronisation der Mahlzeiten mit ihrem Kalender.
+Fallstricke: Zeitmangel, will keine manuelle Eingabe.
+Mittelmäßig GUI-versiert (gelegentliche Anwendung)
+Merkmale: Gelegentlicher Nutzer, nutzt Smartphone-Apps regelmäßig.
+Ziel: Übersicht über Vorräte, einfache Rezeptvorschläge.
+Fallstricke: Komplexe Navigation oder zu viele Optionen.
+Wenig GUI-versiert (Erstanwendung)
+Merkmale: Unsicher im Umgang mit Technik, nutzt nur Basisfunktionen.
+Ziel: Erinnerung an Einkäufe, einfache Sprachsteuerung.
+Fallstricke: Unverständliche Symbole, kleine Schrift, technische Begriffe.
+
+Use Cases
+1.	Automatische Einkaufsliste erstellen
+•	Das System erkennt fehlende Lebensmittel und erstellt eine Liste.
+2.	Rezeptvorschläge anzeigen
+•	Basierend auf Kühlschrankinhalt werden Rezepte vorgeschlagen.
+3.	Gerätestatus überwachen
+•	Anzeige, ob der Geschirrspüler fertig ist oder der Ofen vorgeheizt hat.
+4.	Essensplan generieren (KI-gestützt)
+•	Das System erstellt einen Wochenplan mit Nährwertanalyse.
+5.	Geräte fernsteuern
+•	Starten oder Stoppen von Geräten über App oder Sprachsteuerung.
+
+
+
+
+
+
+Prozessablaufdiagramm
+Beispielprozess: „Rezeptvorschlag auf Basis von Kühlschrankinhalt“
+1.	Kühlschrankinventar wird ausgelesen.
+2.	System gleicht verfügbare Zutaten mit Rezeptdatenbank ab.
+3.	Nutzer erhält Vorschläge.
+4.	Nutzer wählt Rezept → Zutatenliste wird angepasst.
+5.	Optionale Nachbestellung über angebundenen Shop.
+
+Design und Implementierung
+Customer Journey Map
+Beispielhafte Schritte:
+1.	Awareness: Nutzer hört von der App (Empfehlung, Werbung).
+2.	Consideration: Download, erstes Setup.
+3.	Interaction: Verbindung der Geräte, erste Rezepterstellung.
+4.	Usage: Regelmäßige Nutzung, Personalisierung.
+5.	Loyalty: Nutzer vertraut System, empfiehlt es weiter.
+
+Storyboard
+Einkaufsliste erstellen
+•	Panel 1: Nutzer öffnet App
+•	Panel 2: Übersicht „Vorräte“
+•	Panel 3: Fehlende Produkte werden markiert
+•	Panel 4: System erstellt Liste
+•	Panel 5: Nutzer bestätigt Einkaufsliste oder teilt sie
