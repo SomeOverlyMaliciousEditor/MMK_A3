@@ -41,6 +41,7 @@ Zum Thema Design und Implementierung (Phase 3):
 # Platz für sonstige Notizen
 
 - Geräte
+  - Kaffeeautomat
   - Kühlschrank
   - Herd
   - Backofen
@@ -53,7 +54,7 @@ Zum Thema Design und Implementierung (Phase 3):
     - Menge -> Einkaufen
     - Feuchtigkeit / Temperatur / Partikel (Schimmel, ...)
   - Kochen
-    - Timing der Fertigstellung
+    - Timing der Fertigstellung -> Automatismen an Termine angepasst
     - Energiesparen
     - selbst gewählte Effizienz (wenig einkaufen, wenig entsorgen, anpassung an Besuch)
     - Lichtfarbe/-menge anpassen für bessere Sichtbarkeit
