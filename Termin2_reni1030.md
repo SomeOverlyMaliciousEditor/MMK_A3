@@ -11,7 +11,7 @@ Chancen
 Risiken
 
 - Allergieen übersehen
-- 
+- mehr Müll wegen zu großer Kundenzufriedenheit
 
 ## Stakeholdermap
 
