@@ -269,3 +269,125 @@ Möglichkeiten:
 - Gleich ein ganzer Wochenplan angeben, dass wenige notwendige Zutaten angenehm besorgt werden können
 
 ## Story-Board
+
+
+# Storyboard – Smart Kitchen App
+
+**Szenario:** „Thomas' stressfreier Feierabend"  
+**Persona:** Thomas Bauer (45), Pragmatiker, mittelmäßig technikversiert  
+**Dauer:** 25 Minuten vom Problem zur Lösung
+
+---
+
+## Panel 1: Das Problem
+
+**Bild:** Thomas sitzt müde am Schreibtisch, Uhr zeigt 18:30
+
+**Gedanke:** *„Was soll ich bloß kochen? Keine Ahnung was im Kühlschrank ist..."*
+
+**Emotion:** Erschöpft
+
+---
+
+## Panel 2: App öffnen
+
+**Bild:** Thomas greift zum Smartphone, tippt auf die Smart Kitchen App
+
+**Gedanke:** *„Mal schauen was die App sagt..."*
+
+**Emotion:** Neugierig
+
+---
+
+## Panel 3: Dashboard
+
+**Bild:** App zeigt personalisiertes Dashboard
+
+**App-Meldung:** „Guten Abend Thomas! 12 Produkte im Kühlschrank, 2 laufen bald ab."
+
+**UI-Elemente:**
+- Vorräte-Übersicht
+- Button „Was kann ich kochen?"
+- Einkaufsliste
+
+**Emotion:** Erleichtert
+
+---
+
+## Panel 4: Rezeptvorschläge
+
+**Bild:** Thomas tippt auf „Was kann ich kochen?", 3 Rezepte erscheinen
+
+**App-Meldung:** „3 Rezepte mit deinen Zutaten gefunden"
+
+**UI-Elemente:**
+- Pasta Arrabiata – 25 Min 
+- Caesar Salad – 15 Min 
+- Omelett – 10 Min 
+
+**Emotion:** Begeistert
+
+---
+
+## Panel 5: Rezept auswählen
+
+**Bild:** Detailansicht Pasta Arrabiata mit Zutaten und Foto
+
+**Gedanke:** *„Perfekt! Die Tomaten müssen eh weg."*
+
+**UI-Elemente:**
+- Zutatenliste mit Häkchen
+- Großer „Jetzt kochen" Button
+
+**Emotion:** Motiviert
+
+---
+
+## Panel 6: Kochen mit Anleitung
+
+**Bild:** Thomas in der Küche, Smartphone auf Ständer zeigt Schritt 1
+
+**App-Meldung:** „Schritt 1/6: Wasser aufsetzen"
+
+**UI-Elemente:**
+- Schritt-für-Schritt Anleitung
+- Fortschrittsbalken
+- Timer-Button
+
+**Emotion:** Entspannt
+
+---
+
+## Panel 7: Timer-Erinnerung
+
+**Bild:** Push-Notification auf dem Smartphone
+
+**App-Meldung:** „🍝 Noch 1 Minute! Pasta ist gleich fertig."
+
+**Emotion:** Dankbar
+
+---
+
+## Panel 8: Erfolg!
+
+**Bild:** Thomas mit fertigem Teller Pasta, App zeigt Erfolgs-Screen
+
+**App-Meldung:** „Fertig! Guten Appetit!"
+
+**Gedanke:** *„Das sieht richtig gut aus!"*
+
+**UI-Elemente:**
+- Bewertung abgeben
+- Zu Favoriten hinzufügen
+
+**Emotion:** Stolz
+
+---
+
+## Panel 9: Happy End
+
+**Bild:** Thomas genießt entspannt sein Essen am Tisch
+
+**Gedanke:** *„Endlich ein entspannter Feierabend. Morgen probiere ich den Salat!"*
+
+**Emotion:** Zufrieden
