@@ -1,0 +1,26 @@
+Bilder zu personas
+Chancen und Risken zum team
+
+Skala für Key Values (Fertigkeiten, Berdürfnisse, ...)
+
+Use Cases auf einen Satz reduzieren (als zusatz)
+
+Customer Journey Map: Emotions -> Emoticons, Kurve, ...
+Der Kunde soll im betsen Fall glücklicher werden mit fortgeschrittener Nutzung
+
+Customer Journey Map: basierend auf Use-Case
+
+Personas in Stakeholder Map als hilfe zur differenzierung
+Am besten grafisch in Diagramm
+
+
+Nextes Mal:
+Prototyp - Übungsleiter spielt Proband
+Figma oder Balsamic
+
+4 Rollen
+Techniker
+support 
+Siri
+?
+
